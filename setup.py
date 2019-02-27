@@ -10,7 +10,7 @@ with open('README.md') as f:
 
 setup(
     author='Soar Technology, Inc.',
-    name='statick-soartech-unofficial-mappigns',
+    name='statick-soartech-unofficial-mappings',
     description='Statick extension to add unofficial CMU SEI rule mappings.',
     version='0.1.0',
     packages=['statick_tool'],
