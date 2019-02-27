@@ -2,9 +2,7 @@
 
 | Service | Status |
 | ------- | ------ |
-| Build   | [![Travis-CI](https://api.travis-ci.org/soartech/statick-soartech-unofficial-mappings.svg?branch=master)](https://travis-ci.org/soartech/statick-soartech-unofficial-mappings/branches) |
 | PyPI    | [![PyPI version](https://badge.fury.io/py/statick-soartech-unofficial-mappings.svg)](https://badge.fury.io/py/statick-soartech-unofficial-mappings) |
-| Codecov | [![Codecov](https://codecov.io/gh/soartech/statick-soartech-unofficial-mappings/branch/master/graphs/badge.svg)](https://codecov.io/gh/soartech/statick-soartech-unofficial-mappings) |
 
 The SoarTech Unofficial Statick Rule Mappings plugin adds additional rule mappings to the the CMU SEI rule mappings provided by Statick.
 These mappings have not been evaluated by CMU SEI and are for experimental use only.
