@@ -8,11 +8,13 @@ except:  # pylint: disable=bare-except # noqa: E722 # NOLINT
 with open('README.md') as f:
     long_description = f.read()  # pylint: disable=invalid-name
 
+VERSION='0.1.0'
+
 setup(
     author='Soar Technology, Inc.',
     name='statick-soartech-unofficial-mappings',
     description='Statick extension to add unofficial CMU SEI rule mappings.',
-    version='0.1.0',
+    version=VERSION,
     packages=['statick_tool'],
     package_dir={'statick_tool': '.'},
     package_data={'statick_tool': ['rsc/plugin_mapping/*']},
