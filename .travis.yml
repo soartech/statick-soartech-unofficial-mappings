@@ -1,0 +1,22 @@
+dist: xenial
+language: python
+python:
+  - '3.6'
+
+cache:
+  - pip
+
+notifications:
+  email:
+    on_failure: never
+
+jobs:
+  include:
+    - stage: deploy
+      python: '3.6'
+      install:
+        - pip install python-semantic-release
+      script: 
+        - git config --global user.name "semantic-release (via TravisCI)"
+        - git config --global user.email "semantic-release@travis"
+        - semantic-release publish
